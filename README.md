@@ -1,5 +1,5 @@
 # FirstTeamWork
 
-by velikiy maks
 
-создана ветка maks-branch
+Макс: создана ветка maks-branch
+Макс: создана страница maks
