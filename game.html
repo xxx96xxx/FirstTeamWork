@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мини-игры | Угадай число</title>
+  <link rel="stylesheet" href="mini-game/game.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>🎮 Угадай число</h1>
+    <p>Я загадал число от 1 до 100. Попробуй угадать!</p>
+    <input type="number" id="guess" placeholder="Введите число">
+    <button onclick="checkGuess()">Проверить</button>
+    <p id="result"></p>
+    <button onclick="resetGame()">🔄 Начать заново</button>
+  </div>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <button onclick="toggleTheme()">🌗 Переключить тему</button>
+  </div>
+
+  <script src="mini-game/game.js"></script>
+  <script src="js/dark-mode/dark-script.js"></script>
+</body>
+</html>

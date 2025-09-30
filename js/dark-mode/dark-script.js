@@ -12,6 +12,7 @@ function disableDarkMode() {
 }
 
 function toggleTheme() {
+document.body.classList.toggle('dark-mode');
   const existing = document.getElementById('dark-theme');
   if (existing) {
     disableDarkMode();
